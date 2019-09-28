@@ -1,12 +1,5 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -14,9 +7,24 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #28a189;
 }
 
-.App-link {
-  color: #09d3ac;
+.categories-container {
+  background-color: #282c34;
+}
+
+.category-card {
+  padding: 20px;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 2.2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px #888888;
+  border-radius: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.category-card:hover {
+  box-shadow: 0 8px 16px 0 #888888;
 }
