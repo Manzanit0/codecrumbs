@@ -16,7 +16,7 @@ export default class Categories extends Component {
     return (
       <div className="container categories-container">
         {chunk(categories, 3).map(elements => (
-          <div className="row">
+          <div className="row categories-row">
             {elements.map(name => (
               <div className="three columns category-card">{name}</div>
             ))}
